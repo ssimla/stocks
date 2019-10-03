@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { SummaryComponent } from './components/summary/summary.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ManageComponent } from './components/manage/manage.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SummaryComponent,
     DashboardComponent,
-    ManageComponent
+    ManageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
