@@ -6,7 +6,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const routes: Routes = [
  {path: '',component: DashboardComponent},
  {path: 'manage',component: ManageComponent},
- { path: '**', component: PageNotFoundComponent }
+ { path: '**', component: PageNotFoundComponent}
 ];
 
 export const AppRoutes = RouterModule.forRoot(routes);
