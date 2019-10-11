@@ -10,6 +10,8 @@ import { SummaryComponent } from './components/summary/summary.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ManageComponent } from './components/manage/manage.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DownloaderComponent } from './components/downloader/downloader.component';
+import { MipapiComponent } from './components/mipapi/mipapi.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     SummaryComponent,
     DashboardComponent,
     ManageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DownloaderComponent,
+    MipapiComponent
   ],
   imports: [
     BrowserModule,
