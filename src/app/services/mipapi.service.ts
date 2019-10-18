@@ -8,7 +8,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 })
 export class MipapiService {
   
-  mipapiUrl = 'http://localhost/mip/admin/api.php';
+  mipapiUrl = 'http://mip/admin/api.php';
 
   constructor(private http: HttpClient) { }
 
